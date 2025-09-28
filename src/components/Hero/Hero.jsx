@@ -22,7 +22,7 @@ export default function Hero() {
               playsInline
               poster="/images/hero-poster.jpg" // Opcional: imagen de respaldo
             >
-              <source src="/stock/hero-video.mp4" type="video/mp4" />
+              <source src={`${process.env.PUBLIC_URL}/stock/hero-video.mp4`} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>  
@@ -52,21 +52,21 @@ export default function Hero() {
           >
             <SwiperSlide>
               <img
-                src="/stock/views.jpg"
+                src={`${process.env.PUBLIC_URL}/stock/views.jpg`}
                 alt="Camper adventure"
                 className="w-full h-full object-cover"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/stock/surf-equipment.jpg"
+                src={`${process.env.PUBLIC_URL}/stock/surf-equipment.jpg`}
                 alt="Surfing remote waves"
                 className="w-full h-full object-cover"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src="/stock/pickupbeach1.jpg"
+                src={`${process.env.PUBLIC_URL}/stock/pickupbeach1.jpg`}
                 alt="Remote mountain view"
                 className="w-full h-full object-cover"
               />

@@ -12,7 +12,7 @@ export default function Navbar() {
     <header className="fixed top-0 w-full bg-[#E8C155] backdrop-blur-md shadow z-50">
       <nav className="container mx-auto flex justify-between items-center py-0 px-1">
         <img
-          src="/stock/logo-navbar.png"
+          src={`${process.env.PUBLIC_URL}/stock/logo-navbar.png`}
           alt="Beyond the Path logo"
           className="h-20 w-auto"
         />

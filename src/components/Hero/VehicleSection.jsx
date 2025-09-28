@@ -4,15 +4,15 @@ import { ChevronLeft, ChevronRight, Info } from "lucide-react";
 import { useCart } from "../Cart/CartContext";
 
 const images = [
-  { src: "/stock/exterior/1.png", title: "Explore the mountain", features: ["4x4 Off-road", "Solar panel", "5 seats"] },
-  { src: "/stock/interior/1.jpg", title: "Discover the beach", features: ["Indoor shower with hot water", "Toilet", "60L Water tank"] },
-  { src: "/stock/interior/2.jpg", title: "Travel limitless", features: ["Led illumination", "Comfortable dining room", "Sleep 3"] },
+  { src: `${process.env.PUBLIC_URL}/stock/exterior/1.png`, title: "Explore the mountain", features: ["4x4 Off-road", "Solar panel", "5 seats"] },
+  { src: `${process.env.PUBLIC_URL}/stock/interior/1.jpg`, title: "Discover the beach", features: ["Indoor shower with hot water", "Toilet", "60L Water tank"] },
+  { src: `${process.env.PUBLIC_URL}/stock/interior/2.jpg`, title: "Travel limitless", features: ["Led illumination", "Comfortable dining room", "Sleep 3"] },
 ];
 
 const extras = [
-  { src: "/stock/extras/surf.png", title: "Surf Equipment", price: "30/day", features: ["Surf Board", "Wetsuit included", "Optional lessons"] },
-  { src: "/stock/extras/bbq.webp", title: "BBQ Set", price: "30", features: ["Mobile BBQ", "household items included", "Easy to clean"] },
-  { src: "/stock/extras/tent.png", title: "Camping Set", price: "40", features: ["3-person tent", "Mattress included"] },
+  { src: `${process.env.PUBLIC_URL}/stock/extras/surf.png`, title: "Surf Equipment", price: "30/day", features: ["Surf Board", "Wetsuit included", "Optional lessons"] },
+  { src: `${process.env.PUBLIC_URL}/stock/extras/bbq.webp`, title: "BBQ Set", price: "30", features: ["Mobile BBQ", "household items included", "Easy to clean"] },
+  { src: `${process.env.PUBLIC_URL}/stock/extras/tent.png`, title: "Camping Set", price: "40", features: ["3-person tent", "Mattress included"] },
 ];
 
 export default function VehicleSection() {
