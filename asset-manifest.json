@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/BeyondThePath-REACT-Web/static/css/main.58ab94ca.css",
-    "main.js": "/BeyondThePath-REACT-Web/static/js/main.628781ea.js",
+    "main.js": "/BeyondThePath-REACT-Web/static/js/main.6248adf0.js",
     "static/js/453.b201dfe0.chunk.js": "/BeyondThePath-REACT-Web/static/js/453.b201dfe0.chunk.js",
     "static/media/map.png": "/BeyondThePath-REACT-Web/static/media/map.778c0507fa0ff3efe68e.png",
     "static/media/desert-background.jpg": "/BeyondThePath-REACT-Web/static/media/desert-background.afa50e1d7d09c6471174.jpg",
     "index.html": "/BeyondThePath-REACT-Web/index.html",
     "main.58ab94ca.css.map": "/BeyondThePath-REACT-Web/static/css/main.58ab94ca.css.map",
-    "main.628781ea.js.map": "/BeyondThePath-REACT-Web/static/js/main.628781ea.js.map",
+    "main.6248adf0.js.map": "/BeyondThePath-REACT-Web/static/js/main.6248adf0.js.map",
     "453.b201dfe0.chunk.js.map": "/BeyondThePath-REACT-Web/static/js/453.b201dfe0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58ab94ca.css",
-    "static/js/main.628781ea.js"
+    "static/js/main.6248adf0.js"
   ]
 }
